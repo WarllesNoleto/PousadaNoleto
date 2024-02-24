@@ -101,6 +101,7 @@ h3 {
     background-image: url('../assets/img-fundo.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 
     display: flex;
     justify-content: center;
@@ -151,7 +152,7 @@ h3 {
     flex: 1 0 250px;
     text-decoration: none;
     color: #3d3d3d;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     border-bottom: 2px solid var(--cor-principal);
 }
 
