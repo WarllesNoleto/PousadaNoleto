@@ -2,6 +2,11 @@
 
 :root {
     --fonte-principal: 'Source Sans Pro', sans-serif;
+
+    --cor-principal: #6592c9;
+    --cor-secundaria: #00836a;
+    --cor-01: #fff;
+    --cor-02: #3d3d3d;
 }
 
 * {
@@ -10,6 +15,10 @@
     box-sizing: border-box;
     font-family: var(--fonte-principal);
     scroll-behavior: smooth;
+}
+
+html {
+    background-color: var(--cor-01);
 }
 
 .limitar-secao {
@@ -22,8 +31,8 @@
 .topo {
     width: 100%;
     position: fixed;
-    background-color: #fff;
-    border-bottom: 1px solid #00836a;
+    background-color: var(--cor-01);
+    border-bottom: 3px solid var(--cor-principal);
 }
 
 .container-topo {
@@ -33,7 +42,7 @@
     gap: 30px;
     padding: 20px;
     flex-wrap: wrap;
-    color: #3d3d3d;
+    color: var(--cor-02);
 }
 
 .container-link-logotipo {
@@ -43,11 +52,11 @@
 .container-link-logotipo a {
     font-size: 24px;
     text-decoration: none;
-    color: #3d3d3d;
+    color: var(--cor-02);
 }
 
 .container-link-logotipo span {
-    color: #6592c9;
+    color: var(--cor-principal);
 }
 
 .container-links {
@@ -58,13 +67,17 @@
 
 .link-topo {
     text-decoration: none;
-    color: #3d3d3d;
+    color: var(--cor-principal);
     text-transform: uppercase;
-    transition: .5s;
+    transition: .3s;
+    padding: 2px 5px;
+    background-color: var(--cor-02);
 }
 
 .link-topo:hover {
-    color: #00836a;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    color: var(--cor-02);
 }
 
 /* Estilização do Conteúdo Principal */
