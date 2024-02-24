@@ -21,6 +21,14 @@ html {
     background-color: var(--cor-01);
 }
 
+h2 {
+    color: var(--cor-principal);
+}
+
+h3 {
+    color: var(--cor-secundaria);
+}
+
 .limitar-secao {
     width: 100%;
     max-width: 1440px;
@@ -70,6 +78,7 @@ html {
     text-decoration: none;
     color: var(--cor-01);
     text-transform: uppercase;
+    font-weight: 600;
     transition: .3s;
     padding: 2px 7px;
     background-color: var(--cor-principal);
@@ -80,7 +89,7 @@ html {
 .link-topo:hover {
     color: var(--cor-02);
     background-color: var(--cor-principal);
-    transform: scale(1.2);
+    transform: scale(.8);
 }
 
 /* Estilização do Conteúdo Principal */
@@ -223,6 +232,7 @@ html {
 .rodape {
     background-color: #49997d;
     color:#fff;
+    border-top: 2px solid greenyellow;
 }
 
 .container-info {

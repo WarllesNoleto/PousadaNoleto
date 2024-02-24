@@ -1,0 +1,6 @@
+@media screen and (min-width: 547px) and (max-width: 806px) {
+    /*Ajustar liistas*/
+    .lista-informacoes {
+        width: 30%;
+    }
+}
