@@ -12,10 +12,6 @@
     scroll-behavior: smooth;
 }
 
-h2 {
-    margin-top: 25px;
-}
-
 .limitar-secao {
     width: 100%;
     max-width: 1440px;
@@ -42,7 +38,6 @@ h2 {
 
 .container-link-logotipo {
     flex: 1 0 45%;
-    
 }
 
 .container-link-logotipo a {
@@ -65,6 +60,11 @@ h2 {
     text-decoration: none;
     color: #3d3d3d;
     text-transform: uppercase;
+    transition: .5s;
+}
+
+.link-topo:hover {
+    color: #00836a;
 }
 
 /* Estilização do Conteúdo Principal */
@@ -93,7 +93,7 @@ h2 {
     background-color: #0a9077b3;
     border: 1px solid #fff;
     border-radius: 4px;
-     text-align: center;
+    text-align: center;
 }
 
 .container {
@@ -148,10 +148,6 @@ h2 {
 
 #rota {
     padding: 0px;
-}
-
-#rota h2 {
-    margin-top: 75px;
 }
 
 /* Estilização seção Sobre */
