@@ -2,7 +2,11 @@
     
 .container-titulo-site {
     margin-top: 100px; /*Para alinhar o container do titulo, que está sobre a imagem*/
-}hf
+}
+
+.card {
+    height: 200px;
+}
 
 }
 
