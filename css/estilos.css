@@ -63,21 +63,24 @@ html {
     flex: 1 0 150px;
     display: flex;
     justify-content: space-around;
+    gap: 4px;
 }
 
 .link-topo {
     text-decoration: none;
-    color: var(--cor-principal);
+    color: var(--cor-01);
     text-transform: uppercase;
     transition: .3s;
-    padding: 2px 5px;
-    background-color: var(--cor-02);
+    padding: 2px 7px;
+    background-color: var(--cor-principal);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
 }
 
 .link-topo:hover {
-    color: var(--cor-secundaria);
-    background-color: var(--cor-principal);
     color: var(--cor-02);
+    background-color: var(--cor-principal);
+    transform: scale(1.2);
 }
 
 /* Estilização do Conteúdo Principal */
@@ -140,17 +143,28 @@ html {
     text-decoration: none;
     color: #3d3d3d;
     padding-bottom: 10px;
-    border-bottom: 2px solid #00836a;
+    border-bottom: 2px solid var(--cor-principal);
 }
 
 .quarto img {
     width: 100%;
     margin-bottom: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
 }
 
 .quarto a {
     text-decoration: none;
-    color: #333;
+    color: var(--cor-01);
+    background-color: var(--cor-principal);
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+    transition: .3s;
+}
+
+.quarto a:hover{
+    color: var(--cor-02);
+    background-color: var(--cor-principal);
 }
 
 .container h2{
